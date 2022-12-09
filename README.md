@@ -55,6 +55,18 @@ docker compose ps // to see what is currently running
 docker compose stop //  stop your services once you’ve finished with them
 
 docker compose down --volumes // removing the containers entirely, with the down command. Pass --volumes to also remove the data volume used by the container
+
+docker compose ps 	//List containers
+
+docker compose ls 	//List running compose projects
+
+docker compose kill 	//Force stop service containers.
+
+docker compose logs 	//View output from containers
+
+docker compose restart 	//Restart service containers
+
+docker compose rm 	//Removes stopped service containers
 ```
 
 

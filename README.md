@@ -49,6 +49,12 @@ docker run --name <myapp_c_nodemon> -p 4000:4000 --rm -v <project-folder-path>:<
 docker-compose up
 
 docker-compose down --rmi all -v // --rmi all -v to delete images and volumes
+
+docker compose ps // to see what is currently running
+
+docker compose stop //  stop your services once you’ve finished with them
+
+docker compose down --volumes // removing the containers entirely, with the down command. Pass --volumes to also remove the data volume used by the container
 ```
 
 

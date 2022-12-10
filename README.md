@@ -23,6 +23,8 @@ docker ps -a //to view all cnatainers
 
 docker run nginx //to run nginx image (now you are inside a container)
 
+docker run --rm -it --entrypoint /bin/bash image_name
+
 docker run --name <any_container_name> -p 4000:4000 <image-name> // <port that we will map to the 
 container >: <port exposed by the container>
 
